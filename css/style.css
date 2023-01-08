@@ -125,7 +125,7 @@ button {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #e9b311; }
+        color: #eebc4c; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -357,7 +357,7 @@ button {
         .footer-area .footer-bottom .footer-social a i, .footer-area .footer-bottom .footer-social a span {
           font-size: 14px; }
 
-/*=================== home banner start ====================*/
+
 .home-banner {
   position: relative; }
   .home-banner h4, .home-banner h1, .home-banner a {
@@ -414,8 +414,7 @@ button {
       background: #eebc4c;
       color: #fff; }
 
-/*=================== home banner end ====================*/
-/*=================== home search form start ====================*/
+
 .form-search {
   max-width: 972px;
   background: #fff;
@@ -450,7 +449,7 @@ button {
     font-family: "Playfair Display", serif;
     font-weight: 700;
     border: 0;
-    background: #cca772;
+    background: #eebc4c;
     height: 50px;
     text-transform: uppercase; }
 
@@ -504,7 +503,7 @@ button {
     padding-right: 0; }
   .social-icons li a {
     font-size: 14px;
-    color: #e9b311; }
+    color: #eebc4c; }
     .social-icons li a:hover {
       color: #eebc4c; }
 
@@ -555,7 +554,6 @@ button {
     color: #eebc4c; }
 
 
-/*=================== home search form start ====================*/
 .form-search {
   max-width: 972px;
   background: #fff;
@@ -585,7 +583,7 @@ button {
     font-family: "Playfair Display", serif;
     font-weight: 700;
     border: 0;
-    background: #cca772;
+    background: #eebc4c;
     height: 50px;
     text-transform: uppercase; }
 
@@ -607,3 +605,71 @@ button {
     .form-select-custom select:focus {
       outline: 0;
       box-shadow: none; }
+
+      
+.welcome {
+  padding-top: 40px; }
+  .welcome-images .card {
+    border-radius: 0;
+    border: 0;
+    margin: 0 4px 4px 0; }
+    @media (max-width: 991px) {
+      .welcome-images .card img {
+        width: 100%; } }
+  @media (min-width: 991px) {
+    .welcome-content {
+      padding-left: 60px; } }
+
+      
+.card-explore {
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0px 10px 30px 0px rgba(93, 93, 93, 0.2);
+  transition: all .4s ease; }
+  .card-explore .card-img {
+    border-radius: 0; }
+  .card-explore__img {
+    width: 100%;
+    position: relative; }
+    .card-explore__img::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      clip-path: polygon(0 83%, 0% 100%, 100% 100%);
+      background: #fff;
+      width: 100%;
+      height: 190px; }
+    .card-explore__img img {
+      padding-bottom: 1px; }
+  .card-explore .card-body {
+    padding: 5px 18px 35px 40px; }
+  .card-explore__price {
+    font-size: 40px; }
+    .card-explore__price sub {
+      font-size: 18px; }
+  .card-explore__title {
+    font-size: 24px;
+    margin: 12px 0 18px 0; }
+    .card-explore__title a {
+      color: #97bc7d;
+      transition: color .2s ease; }
+  .card-explore__link {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #97bc7d;
+    transition: color .2s ease; }
+    .card-explore__link i, .card-explore__link span {
+      padding-left: 3px;
+      transition: all .35s ease; }
+  .card-explore:hover a {
+    color: #eebc4c }
+  .card-explore:hover .card-explore__link i, .card-explore:hover .card-explore__link span {
+    padding-left: 10px; }
+
+
+
+
