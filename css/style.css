@@ -696,7 +696,9 @@ button {
     
 
 
- /*=================== contact banner start ====================*/
+
+/*===================== Contact page style =====================*/
+ /*-------------------- contact banner start -------------------*/
 .contact-banner {
   position: relative; }
   .contact-banner h4, .contact-banner h1, .contact-banner a {
@@ -761,5 +763,25 @@ button {
 .contact-info .media-body p {
   color: #999999; }
 
-/*=================== contact banner end ====================*/
+/*-------------------- contact banner end -------------------*/
+
+
+/*-------------------- */
+.contact-banner {
+  position: relative; }
+  .contact-banner h4, .contact-banner h1, .contact-banner a {
+    text-transform: uppercase;
+    color: #fff; }
+  .contact-banner h4 {
+    font-size: 18px;
+    margin-bottom: 15px; }
+  .contact-banner h1 {
+    font-size: 37px;
+    margin-bottom: 5px; }
+    @media (min-width: 992px) {
+      .contact-banner h1 {
+        font-size: 48px; } }
+
+
+
 
