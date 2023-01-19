@@ -689,8 +689,190 @@ button {
         color: #fff; }
         .card-special:hover .card-special__icon, .card-special:hover .card-special__title {
         color: #fff; }
-    
 
+
+/*======================= Rreth Nesh =========================*/
+/*--------------------- carousel section ---------------------*/
+.testi-carousel .owl-stage-outer {
+  padding: 50px 0; }
+
+.testi-carousel .owl-item {
+  overflow: hidden; }
+
+.testi-carousel__item {
+  background: #f7f9f9;
+  padding: 30px 25px;
+  transition: all .3s ease; }
+  .testi-carousel__item .media-body p {
+    margin-bottom: 12px; }
+  .testi-carousel__item::after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 15px solid #ffffff;
+    border-left: 500px solid rgba(255, 255, 255, 0.13);
+    /* Maintain smooth edge of triangle in FF */
+    -moz-transform: scale(0.9999); }
+  .testi-carousel__item:hover {
+    box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.2);
+    background: #fff; }
+
+.testi-carousel__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px; }
+
+.testi-carousel__intro h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 5px; }
+
+.testi-carousel__intro p {
+  font-size: 14px;
+  color: #999999; }
+
+.testi-carousel .owl-dots .owl-dot span {
+  background: #cacccf; }
+
+.testi-carousel .owl-dots .owl-dot.active span {
+  width: 12px;
+  height: 12px;
+  background: #cca772; }
+
+
+
+
+  .card-news {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.2);
+    transition: all .4s ease; }
+    .card-news__info {
+      margin-bottom: 10px; }
+      .card-news__info li {
+        display: inline-block;
+        font-size: 14px;
+        color: #999999; }
+        .card-news__info li:not(:last-child) {
+          margin-right: 13px; }
+        .card-news__info li .news-icon {
+          font-size: 12px;
+          color: #cca772;
+          margin-right: 5px; }
+        .card-news__info li a {
+          color: #999999; }
+    .card-news .card-img {
+      border-radius: 0;
+      padding-bottom: 1px; }
+    .card-news__img {
+      width: 100%;
+      position: relative; }
+      .card-news__img::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        clip-path: polygon(0 100%, 100% 100%, 100% 83%);
+        background: #fff;
+        width: 100%;
+        height: 190px; }
+    .card-news .card-body {
+      padding: 18px 20px 35px 40px; }
+    .card-news__price {
+      font-size: 40px; }
+      .card-news__price sub {
+        font-size: 23px; }
+    .card-news__title {
+      font-size: 24px;
+      margin: 12px 0 18px 0;
+      font-weight: 700; }
+      .card-news__title a {
+        color: #222222;
+        transition: color .2s ease; }
+    .card-news__link {
+      font-size: 13px;
+      text-transform: uppercase;
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      color: #303030;
+      transition: color .2s ease; }
+      .card-news__link i, .card-news__link span {
+        padding-left: 3px;
+        transition: all .35s ease; }
+    .card-news:hover .card-news__title a {
+      color: #cca772; }
+    .card-news:hover .card-news__link i, .card-news:hover .card-news__link span {
+      padding-left: 10px; }
+
+/*=================== testimonial section end ====================*/
+/*=================== news section start ====================*/
+.card-news {
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.2);
+  transition: all .4s ease; }
+  .card-news__info {
+    margin-bottom: 10px; }
+    .card-news__info li {
+      display: inline-block;
+      font-size: 14px;
+      color: #999999; }
+      .card-news__info li:not(:last-child) {
+        margin-right: 13px; }
+      .card-news__info li .news-icon {
+        font-size: 12px;
+        color: #cca772;
+        margin-right: 5px; }
+      .card-news__info li a {
+        color: #999999; }
+  .card-news .card-img {
+    border-radius: 0;
+    padding-bottom: 1px; }
+  .card-news__img {
+    width: 100%;
+    position: relative; }
+    .card-news__img::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      clip-path: polygon(0 100%, 100% 100%, 100% 83%);
+      background: #fff;
+      width: 100%;
+      height: 190px; }
+  .card-news .card-body {
+    padding: 18px 20px 35px 40px; }
+  .card-news__price {
+    font-size: 40px; }
+    .card-news__price sub {
+      font-size: 23px; }
+  .card-news__title {
+    font-size: 24px;
+    margin: 12px 0 18px 0;
+    font-weight: 700; }
+    .card-news__title a {
+      color: #222222;
+      transition: color .2s ease; }
+  .card-news__link {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #303030;
+    transition: color .2s ease; }
+    .card-news__link i, .card-news__link span {
+      padding-left: 3px;
+      transition: all .35s ease; }
+  .card-news:hover .card-news__title a {
+    color: #cca772; }
+  .card-news:hover .card-news__link i, .card-news:hover .card-news__link span {
+    padding-left: 10px; }
 
 
 /*===================== Contact page style =====================*/
