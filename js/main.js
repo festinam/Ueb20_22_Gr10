@@ -6,29 +6,6 @@ $('.img-gal').magnificPopup({
     }
   });
 
-  //------- testimonial carousel --------//  
-  if($('.owl-carousel').length > 0){
-    $('.testi-carousel').owlCarousel({
-      loop:true,
-      autoplay: true,
-      margin:30,
-      smartSpeed: 600,
-      nav:false,
-      dots: true,
-      responsive:{
-        0:{
-          items:1
-        },
-        800:{
-          items:2
-        },
-        1000:{
-          items:3
-        }
-      }
-    })
-  }
-
 
 //------- initialize menu --------//    
 $('.nav-menu').superfish({
