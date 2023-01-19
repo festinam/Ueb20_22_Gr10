@@ -762,68 +762,8 @@ button {
 /*-------------------- contact banner end -------------------*/
 
 
-/*-------------------- */
-.contact-banner {
-  position: relative; }
-  .contact-banner h4, .contact-banner h1, .contact-banner a {
-    text-transform: uppercase;
-    color: #fff; }
-  .contact-banner h4 {
-    font-size: 18px;
-    margin-bottom: 15px; }
-  .contact-banner h1 {
-    font-size: 37px;
-    margin-bottom: 5px; }
-    @media (min-width: 992px) {
-      .contact-banner h1 {
-        font-size: 48px; } }
+/*-------------------- Blog ------------------------*/
 
-
-        /*Rreth Nesh style*/
-/*.rrethnesh-banner {
-  position: relative; }
-  .rrethnesh-banner h4, .rrethnesh-banner h1, .rrethnesh-banner a {
-    text-transform: uppercase;
-    color: #fff; }
-  .rrethnesh-banner h4 {
-    font-size: 18px;
-    margin-bottom: 15px; }
-  .rrethnesh-banner h1 {
-    font-size: 37px;
-    margin-bottom: 5px; }
-    @media (min-width: 992px) {
-  .rrethnesh-banner h1 {
-    font-size: 48px; } }
-  .rrethnesh-banner-area {
-    height: 380px;
-    background: url("AnesMalit\Ueb20_22_Gr11\img\rrethnesh.jpg") center center no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 1; }
-    @media (min-width: 600px) {
-  .rrethnesh-banner-area {
-    height: 500px; } }
-    @media (min-width: 1000px) {
-  .rrethnesh-banner-area {
-    height: 625px; } }
-  .rrethnesh-banner-area .rrethnesh-banner {
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    width: 100%;
-    transform: translateX(-50%); }
-  .rrethnesh-banner-area::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(1, 2, 11, 0.7);
-    z-index: -1; }
-*/
-/*=================== blog banner start ====================*/
 .blog-banner {
   position: relative; }
   .blog-banner h4, .blog-banner h1, .blog-banner a {
