@@ -211,6 +211,8 @@ button {
     .header_area.navbar_fixed .main_menu .navbar .primary-btn {
       margin-top: 15px; }
 
+
+     
 #search_input_box {
   text-align: center;
   padding: 5px 20px;
@@ -249,7 +251,6 @@ button {
     cursor: pointer;
     padding: 10px 3px; }
 
-
 .header-top {
   padding: 17px 0;
   border-bottom: 1px solid #F0F0F0; }
@@ -271,6 +272,39 @@ button {
     font-weight: bold; }
   .header-top-info:not(:last-child) {
     margin-right: 10px; }
+
+.testimonials{
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.testimonial-col{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+
+.testimonial-col img{
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.testimonial-col p{
+  padding: 0;
+}
+.testimonial-col h3{
+  margin-top: 15px;
+  text-align: left;
+}
 
 .footer-area {
   padding: 120px 0px 120px;
