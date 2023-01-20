@@ -19,6 +19,23 @@
     .video {
       width: 100%;
     }
+
+    table {
+      border-collapse: collapse;
+      width: 850px;
+      margin-top:25px;
+      margin-bottom: 100px;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #fff;
+    }
+
+    tr:hover {
+      background-color: #eebc4c;
+    }
   </style>
 
 </head>
@@ -52,8 +69,8 @@
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav">
               <li class="nav-item"><a class="nav-link" href="index.html">Ballina</a></li>
-              <li class="nav-item active"><a class="nav-link" href="blog.html">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="rreth-nesh.html">Rreth Nesh</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+              <li class="nav-item active"><a class="nav-link" href="rreth-nesh.html">Rreth Nesh</a></li>
               <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
               <li class="nav-item submenu dropdown">
               </li>
@@ -120,34 +137,59 @@
     </div>
   </section>
 
-  <video controls autoplay style="text-align: centre; display: block;">
+  <video controls autoplay style="margin-left: 34px; margin-right: 34px;">
     <source src="bjeshka-e-preilepit-bjeshket-e-nemuna-kosove-easysave.net.mp4" type="video/mp4">
   </video>
 
 
-  <section class="testimonials">
+  <section class="testimonials" >
     <h2>Stafi</h2>
     <p>Nje cope e vogel nga shume tjera.</p>
 
-    <div class="row">
-      <div class="testimonial-col">
+    <div class="row"  style="display:flex; justify-content: center;">
+      <div class="testimonial-col" style="margin-right:5px; width: 1200px;">
         <img src="img/diellza.jpg">
         <div>
           <p>“Nëse vërtet e do natyrën, ti mund të gjesh bukurinë e saj kudo”.</p>
           <h3>Diellza raci</h3>
         </div>
       </div>
-      <div class="testimonial-col">
+      <div class="testimonial-col" style="margin-left:5px; width: 1200px;">
         <img src="img/festina.jpg">
         <div>
           <p>Tani unë shoh sekretin që e bën personin më të mirë: kjo është që të rritet në ajër të hapur dhe të hajë e
             të flejë me tokën.</p>
-          <h3>Festina Mjeku</h3>
+          <h4 style="color: #004034;">Festina Mjeku</h4>
         </div>
       </div>
     </div>
   </section>
 
+  <h2 style="display:flex; justify-content: center;">Majat e shkelura</h2>
+  <div style="display:flex; justify-content: center;">
+      <table>
+      <tr>
+        <th >Maja</th>
+        <th>Lartesia</th>
+      </tr>
+      <tr>
+        <td>Rudoke</td>
+        <td>2658m</td>
+      </tr>
+      <tr>
+        <td>Gjeravice</td>
+        <td>2656m</td>
+      </tr>
+      <tr>
+        <td>Luboten</td>
+        <td>2498m</td>
+      </tr>
+      <tr>
+        <td>Pogled</td>
+        <td>2154m</td>
+      </tr>
+    </table>
+  </div>
 
 
 
@@ -198,10 +240,6 @@
     </div>
   </div>
 </footer>
-
-  <script src="libs/jquery/jquery-3.2.1.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 
