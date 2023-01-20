@@ -1,21 +1,3 @@
-
-//------- Lightbox  js --------//  
-$('.img-gal').magnificPopup({
-    type: 'image',
-    gallery: {
-        enabled: true
-    }
-  });
-
-
-//------- initialize menu --------//    
-$('.nav-menu').superfish({
-  animation: {
-    opacity: 'show'
-  },
-  speed: 400
-});
-
 //* Navbar Fixed
 var window_width = $(window).width(),
       window_height = window.innerHeight,
@@ -41,18 +23,5 @@ var window_width = $(window).width(),
   navbarFixed();
 
 
-//------- Active Nice Select --------//
-$('select').niceSelect();
 
-//------- mailchimp --------//  
-  function mailChimp() {
-      $('#mc_embed_signup').find('form').ajaxChimp();
-  }
-  mailChimp();
-  function mailChimp2() {
-      $('#mc_embed_signup2').find('form').ajaxChimp();
-  }
-  mailChimp2();
-
-;
 
