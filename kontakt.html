@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <!--------------------Header section------------------->
+  <!--Pjesa e Header-->
   <header class="header_area">
     <div class="header-top">
       <div class="container">
@@ -43,15 +43,14 @@
             <span class="icon-bar"></span>
           </button>
 
-                <!--Collect nav links, forms and other content for toggling-->
-                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav menu_nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Ballina</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="rreth-nesh.html">Rreth Nesh</a></li>
-                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-                    </ul>
-                </div>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Ballina</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="rreth-nesh.html">Rreth Nesh</a></li>
+              <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
 
           <ul class="social-icons ml-auto">
             <li><a href="https://www.facebook.com/diellza.raqi.5"><i class="fab fa-facebook-f"></i></a></li>
@@ -62,10 +61,8 @@
       </nav>
     </div>
   </header>
-  <!----------------End of header section------------------->
 
-
-  <!------------------ Start banner area ------------------>
+  <!--Pjesa e Banner-->
   <section class="contact-banner-area" id="contact">
     <div class="container h-100">
       <div class="contact-banner">
@@ -79,7 +76,7 @@
   </section>
 
 
-  <!---------------Map area------------->
+  <!--Harta-->
   <section class="section-margin">
     <div class="container">
 
@@ -112,6 +109,7 @@
   <section class="section-margin">
     <div class="container">
       <div class="row">
+        <!--Te dhenat e AnesMalit-->
         <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
@@ -135,11 +133,13 @@
             </div>
           </div>
         </div>
+        <!--Mesazhi-->
         <div class="col-md-8 col-lg-9">
           <form class="row contact_form" action="" method="post" id="contactForm" onclick="return ValidateForm();">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text"  required="required" class="form-control" id="name" name="name" placeholder="Shkruani emrin e juaj">
+                <input type="text" required="required" class="form-control" id="name" name="name"
+                  placeholder="Shkruani emrin e juaj">
                 <span class="error_msg"></span>
               </div>
               <div class="form-group">
@@ -155,7 +155,7 @@
               <div class="form-group">
                 <textarea class="form-control different-control" name="message" id="message" rows="5"
                   placeholder="Shkruani mesazhin"></textarea>
-                  <span class="error_msg"></span>
+                <span class="error_msg"></span>
               </div>
             </div>
             <div class="col-md-12 text-right">
@@ -173,7 +173,7 @@
 
 
 
-  <!----------------- Footer Area ---------------->
+  <!--Pjesa e Footer-->
   <footer class="footer-area section-gap">
     <div class="container">
       <div class="row">
@@ -226,21 +226,21 @@
   <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
 
   <script type="text/javascript">
-  function sendEmail(){
-    Email.send({
-      Host : "smtp.elasticemail.com",
-      Username: "festinamjeku1@gmail.com",
-      Password: "25846089116D8A948FA8984E2169E4D56F7A",
-      To: 'festinamjeku1@gmail.com',
-      From : document.getElementById("email").value,
-      Subject : document.getElementById("subject").value,
-      Body : document.getElementById("message").value
-    }).then(
-      message => alert("Formulari u dergua me sukses!")
-    );
-  }
-</script> 
-    
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "festinamjeku1@gmail.com",
+        Password: "25846089116D8A948FA8984E2169E4D56F7A",
+        To: 'festinamjeku1@gmail.com',
+        From: document.getElementById("email").value,
+        Subject: document.getElementById("subject").value,
+        Body: document.getElementById("message").value
+      }).then(
+        message => alert("Formulari u dergua me sukses!")
+      );
+    }
+  </script>
+
   <script src="libs/jquery/jquery-3.2.1.min.js"></script>
   <script src="js/main.js"></script>
   <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>

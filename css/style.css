@@ -1,4 +1,4 @@
-/*=================== fonts ====================*/
+/*Fontet*/
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
 
@@ -1344,9 +1344,8 @@ testimonial-col p {
   color: #fff;
 }
 
-/*=================== blog banner end ====================*/
-/* Latest Blog Area css
-============================================================================================ */
+/*=================== blog banner fundi ====================*/
+/* Blog artikulli css */
 .l_blog_item .l_blog_text .date {
   margin-top: 24px;
   margin-bottom: 15px;
@@ -1378,10 +1377,8 @@ testimonial-col p {
   padding-top: 20px;
 }
 
-/* End Latest Blog Area css
-============================================================================================ */
-/* Causes Area css
-============================================================================================ */
+/* Blog artikulli css fundi */
+
 .causes_slider .owl-dots {
   text-align: center;
   margin-top: 80px;
@@ -1482,9 +1479,6 @@ testimonial-col p {
   color: #303030;
 }
 
-/* End Causes Area css
-============================================================================================ */
-/*================= latest_blog_area css =============*/
 .latest_blog_area {
   background: #f9f9ff;
 }
