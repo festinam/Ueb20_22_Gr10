@@ -1,3 +1,4 @@
+
 //------- Lightbox  js --------//  
 $('.img-gal').magnificPopup({
     type: 'image',
