@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="libs/themify-icons/themify-icons.css">
 	<link rel="stylesheet" href="libs/linericon/style.css">
     <link rel="stylesheet" href="css/style.css">
-
+    
 </head>
 <body>
     <!--------------------Header section------------------->
@@ -142,13 +142,34 @@
               </div>
           </div>
           <div class="col-md-12 text-right">
-              <button type="submit" value="submit" class="button-contact"><span>Dergo</span></button>
+              <button type="submit" onclick="sendEmail()" value="submit" class="button-contact"><span>Dergo</span></button>
           </div>
       </form>
     </div>
   </div>
 </div>
 </section>
+
+<script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script type="text/javascript">
+  function sendEmail(){
+    Email.send({
+      Host : "smtp.elasticemail.com",
+      Username: "festinamjeku1@gmail.com",
+      Password: "25846089116D8A948FA8984E2169E4D56F7A",
+      To: 'festinamjeku1@gmail.com',
+      From : document.getElementById("email").value,
+      Subject : document.getElementById("subject").value,
+      Body : document.getElementById("message").value
+    }).then(
+      message => alert("Formulari u dergua me sukses!")
+    );
+  }
+</script>
+
+
+
 
 
 <!----------------- Footer Area ---------------->
@@ -199,7 +220,9 @@
   </footer>
 
 
-    
+    <script type="text/javascript">
+      alert(Hello);
+    </script>
     
 </body>
 </html>
