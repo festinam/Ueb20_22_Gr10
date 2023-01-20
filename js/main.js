@@ -22,6 +22,8 @@ var window_width = $(window).width(),
   }
   navbarFixed();
 
+  
+
 
 
 

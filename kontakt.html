@@ -136,22 +136,26 @@
           </div>
         </div>
         <div class="col-md-8 col-lg-9">
-          <form class="row contact_form" action="" method="post" id="contactForm" novalidate="novalidate">
+          <form class="row contact_form" action="" method="post" id="contactForm" onclick="return ValidateForm();">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Shkruani emrin e juaj">
+                <input type="text"  required="required" class="form-control" id="name" name="name" placeholder="Shkruani emrin e juaj">
+                <span class="error_msg"></span>
               </div>
               <div class="form-group">
                 <input type="email" class="form-control" id="email" name="email" placeholder="Shkruani adresen e juaj">
+                <span class="error_msg"></span>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Shkruani temen">
+                <span class="error_msg"></span>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <textarea class="form-control different-control" name="message" id="message" rows="5"
                   placeholder="Shkruani mesazhin"></textarea>
+                  <span class="error_msg"></span>
               </div>
             </div>
             <div class="col-md-12 text-right">
@@ -235,8 +239,12 @@
       message => alert("Formulari u dergua me sukses!")
     );
   }
-</script>
+</script> 
     
+  <script src="libs/jquery/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="libs/jquery/functions.js"></script>
 </body>
 
 </html>
