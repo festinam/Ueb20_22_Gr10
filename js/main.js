@@ -40,4 +40,12 @@ var window_width = $(window).width(),
   }
 
 
+  // Try and catch
+  try {
+    console.log(newFuction());
+  }
+  catch(e) {
+        console.log(e);
+  }
+
 
