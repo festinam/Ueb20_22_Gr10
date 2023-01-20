@@ -13,6 +13,17 @@
 	<link rel="stylesheet" href="libs/linericon/style.css">
 
   <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    #div1, #div2 {
+      float: left;
+      width: 100px;
+      height: 35px;
+      margin: 10px;
+      padding: 10px;
+      border: none;
+    }
+    </style>
 </head>
 <body>
 	<header class="header_area">
@@ -209,9 +220,15 @@
     <section class="section-margin">
       <div class="container">
         <div class="section-intro text-center pb-80px">
-          <div class="section-intro__style">
-            <img src="img/logomin.png" alt style="width: 100px;">
+          <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="img/logomin.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
           </div>
+          
+          <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          
+          <!--<div class="section-intro__style">
+            <img src="img/logomin.png" alt style="width: 100px;">
+          </div>-->
           <h2>Aktivitetet</h2>
         </div>
 
